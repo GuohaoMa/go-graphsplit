@@ -7,6 +7,7 @@ Splitting dataset:
 (1)Absolute path: ./graphsplit chunk --car-dir=/mnt/data2/large-file/car --slice-size=1000000000 --parallel=2 --graph-name=monkey_labels --parent-path=. /mnt/data2/large-file/source/monkey_labels.zip
 
 (2)Relative path: ./graphsplit chunk --car-dir=./mnt/data2/large-file/car --slice-size=1000000000 --parallel=2 --graph-name=monkey_labels --parent-path=. ./mnt/data2/large-file/source/monkey_labels.zip
+
 Note: There is a space after "parent-path=."
 
 Retrieval:
