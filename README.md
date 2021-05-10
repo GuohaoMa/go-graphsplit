@@ -2,7 +2,8 @@
 
 This is packed go language exe:
 
-Splitting dataset:
+
+**Splitting dataset:**
 
 (1)Absolute path: ./graphsplit chunk --car-dir=/mnt/data2/large-file/car --slice-size=1000000000 --parallel=2 --graph-name=monkey_labels --parent-path=. /mnt/data2/large-file/source/monkey_labels.zip
 
@@ -10,7 +11,8 @@ Splitting dataset:
 
 Note: There is a space after "parent-path=."
 
-Retrieval:
+
+**Retrieval:**
 
 ./graphsplit retrieve --car-path=/mnt/data2/large-file/car/ --output-dir=/mnt/data2/large-file/out --parallel=2
 
